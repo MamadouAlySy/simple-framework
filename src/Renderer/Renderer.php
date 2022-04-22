@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace MamadouAlySy\SimpleFramework\Renderer;
 
-class Renderer
+class Renderer implements RendererInterface
 {
     protected string $defaulLayout = 'default';
     protected array $blocks = [];
