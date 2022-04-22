@@ -1,0 +1,20 @@
+{
+    "name": "mamadou-aly-sy/simple-framework",
+    "description": "A simple php framework for building web applications",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "MamadouAlySy\\SimpleFramework\\": "src/",
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mamadou Aly Sy",
+            "email": "sy.aly.mamadou@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
